@@ -192,7 +192,8 @@ img {
   width: 100%; }
 
 span {
-  color:$main-color;}
+  color:$main-color;
+}
 #logo {
   width: 100px;
   height: 100px;
