@@ -191,6 +191,9 @@ h4 {
 img {
   width: 100%; }
 
+span {
+  color:$main-color;
+}
 #logo {
   width: 100px;
   height: 100px;
@@ -300,7 +303,8 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: "bio-image bio bio" "aw1 aw2 aw3";
+  grid-template-areas: "bio-image bio bio"
+ "aw1 aw2 aw3";
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
@@ -366,7 +370,9 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: "name email" "subject phone" "message message";
+  grid-template-areas: "name email"
+ "subject phone"
+ "message message";
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
@@ -486,11 +492,19 @@ img {
   #home-b .stats divs {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {
-    grid-template-areas: "bio-image" "bio" "aw1" "aw2" "aw3"; }
+    grid-template-areas: "bio-image"
+ "bio"
+ "aw1"
+ "aw2"
+ "aw3"; }
   #about-c {
     display: none; }
   #contact-a .text-fields {
-    grid-template-areas: "name" "subject" "email" "phone" "message"; }
+    grid-template-areas: "name"
+ "subject"
+ "email"
+ "phone"
+ "message"; }
   #contact-b div {
     margin-bottom: 1rem;
     padding-bottom: 0.75rem;
